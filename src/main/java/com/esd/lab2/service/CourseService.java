@@ -45,4 +45,6 @@ public class CourseService {
     private CourseResponse toResponse(Course c) {
         return new CourseResponse(c.getId(), c.getCode(), c.getTitle(), c.getDescription());
     }
+
 }
+
